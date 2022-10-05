@@ -1,0 +1,70 @@
+.calci-layout{
+    background-color:aliceblue ;
+    display: flex;  
+    flex-wrap: wrap;
+    width: 290px;
+    height: 520px;
+    padding:10px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 20px 20px ;
+    /* position: relative; */
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    border-radius: 10px;
+    margin:7px;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size:larger;
+    border: none;
+    color: grey;
+    box-shadow: 5px 5px 5px grey   ;
+}
+.keypad{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -60px;
+    padding-bottom: -10px;
+}
+input{
+    display: inline-flex;
+    background-color: aliceblue;
+    border-radius: 10px 10px ;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px grey, inset 3px 3px 8px rgb(180, 178, 178);
+    outline: 20px;
+    box-sizing: border-box;
+    height:80px;
+    width: 260px;
+    margin: 15px;
+    border: 6px solid cornsilk;
+    border: 6px solid cornsilk inset;
+    font-size:xx-large;
+
+}
+button:hover {
+    outline: none;
+    border-color:aliceblue;
+    box-shadow: 0 0 10px grey;
+  }
+
+body{
+    background-color:rgb(230, 219, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomDiv {
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 220px;
+    margin-left: -80px;
+    margin-top: -76px;   
+    padding-left: 10px; 
+}
